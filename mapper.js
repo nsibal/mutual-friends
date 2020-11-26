@@ -1,6 +1,6 @@
 // step 2
 
-function mapper (setupArr) {
+module.exports = function mapper (setupArr) {
   var mappedFriends = new Array();
 
   for (var user in setupArr) {

@@ -1,6 +1,6 @@
 // step 3
 
-function group (mappedArr) {
+module.exports = function group (mappedArr) {
   var groupedFriends = new Object();
 
   mappedArr.forEach(object => combineFriends(groupedFriends, object));
