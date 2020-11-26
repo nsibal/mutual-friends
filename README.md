@@ -1,13 +1,13 @@
-## Mutual Friends using MapReduce
+# Mutual Friends using MapReduce
 
 This project can be found in [Educative.io](https://www.educative.io/)'s [JavaScript in Detail: From Beginner to Advanced](https://www.educative.io/courses/javascript-in-detail-from-beginner-to-advanced/N785xgl7vr8) course.
 
 
-### Problem Description
+## Problem Description
 Find mutual friends using MapReduce by simulating through JavaScript.
 
 
-### Topics Covered
+## Topics Covered
 - [Background](#background)
 - [Task](#task)
   - [Sub-tasks](#sub-tasks)
@@ -17,20 +17,20 @@ Find mutual friends using MapReduce by simulating through JavaScript.
     4. [Reduce](#4-reduce)
 
 
-### Background
+## Background
 A company wants to create a social media application called **_"FriendMe"_**. This app will promote socializing between employees across offices. The application is almost complete but they need a feature that finds mutual friends between users. This feature can make users more comfortable with the app. Given that they have distributed servers across the globe, the **CTO** wants to use the **MapReduce framework** to implement this feature, distributing the computation overhead. The **CTO** wants **_you_** to simulate this feature in **JavaScript**.
 
 
-### Task
+## Task
 Your task in this project is to use your **JavaScript** knowledge to help implement the simulation of the **MapReduce framework**. Then, the **CTO** will know if it is possible to create a **MapReduce** implementation for the company’s servers.
 Take a look at the steps required to find mutual friends while simulating the **MapReduce framework**.
 
 
-#### Sub-tasks
+### Sub-tasks
 The **sub-tasks** of the project are here.
 
 
-##### 1. Setting up
+#### 1. Setting up
 Take raw data in the form of an array and convert that into a JavaScript Object. This will give us a cleaner way of interfacing the user and their corresponding friends. The following is an example of the eventual interface.
 
 ```javascript
@@ -51,7 +51,7 @@ Here, each alphabet represents a user where, for the following:
 `B`, `C`, and `D` are friends of `A`.
 
 
-##### 2. Map
+#### 2. Map
 Once we have an interface, **map** the object into an array of objects. **Map** each _property_ of the object as follows.
 
 ```javascript
@@ -82,7 +82,7 @@ var friends = [
 While pairing, follow the **lexicographical ordering** where the smaller alphabet comes first. The output above would be the final output after mapping. Now, **group** before **reducing** to the final answer.
 
 
-##### 3. Group
+#### 3. Group
 In this step, **group** all elements of the array into a single object. This joins the pairs together. Joining two pairs together means that we have the array of friends for both users of the pair. Without overwriting the array of the two users, create a _new_ array and add the two arrays of friends to it. The resultant array will be assigned to the pair.
 
 ```javascript
@@ -110,7 +110,7 @@ var friends = {
 The above output enables us to move onto the **reduce** phase.
 
 
-##### 4. Reduce
+#### 4. Reduce
 In this step, take each _element_ of the object and flatten the two-dimensional array into a single-dimensional array, with the final array having only common values.
 
 ```javascript
