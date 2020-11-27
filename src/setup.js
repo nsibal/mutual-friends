@@ -1,5 +1,3 @@
-// step 1
-
 module.exports = function setup (arr) {
   let friends = new Object();
 

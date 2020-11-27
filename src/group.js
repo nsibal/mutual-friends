@@ -1,5 +1,3 @@
-// step 3
-
 module.exports = function group (mappedArr) {
   let groupedFriends = new Object();
 

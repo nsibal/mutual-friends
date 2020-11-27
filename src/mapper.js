@@ -1,5 +1,3 @@
-// step 2
-
 module.exports = function mapper (setupArr) {
   let mappedFriends = new Array();
 
