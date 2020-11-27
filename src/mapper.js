@@ -1,9 +1,9 @@
 // step 2
 
 module.exports = function mapper (setupArr) {
-  var mappedFriends = new Array();
+  let mappedFriends = new Array();
 
-  for (var user in setupArr) {
+  for (let user in setupArr) {
     let friends = setupArr[user];
 
     friends.forEach(friend => {

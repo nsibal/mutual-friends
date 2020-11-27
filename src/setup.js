@@ -1,7 +1,7 @@
 // step 1
 
 module.exports = function setup (arr) {
-  var friends = new Object();
+  let friends = new Object();
 
   arr.forEach(pair => addPair(friends, pair));
 
