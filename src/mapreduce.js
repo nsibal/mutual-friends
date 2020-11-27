@@ -1,9 +1,9 @@
 // final
 
-setup = require('./setup.js')
-mapper = require('./mapper.js')
-group = require('./group.js')
-reducer = require('./reducer.js')
+const setup = require('./setup.js');
+const mapper = require('./mapper.js');
+const group = require('./group.js');
+const reducer = require('./reducer.js');
 
 function mapReduce (friends) {
   let setupArr = setup(friends);
