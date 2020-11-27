@@ -18,7 +18,7 @@ Find mutual friends using MapReduce by simulating through JavaScript.
 
 
 ## Background
-A company wants to create a social media application called **_"FriendMe"_**. This app will promote socializing between employees across offices. The application is almost complete but they need a feature that finds mutual friends between users. This feature can make users more comfortable with the app. Given that they have distributed servers across the globe, the **CTO** wants to use the **MapReduce framework** to implement this feature, distributing the computation overhead. The **CTO** wants **_you_** to simulate this feature in **JavaScript**.
+A company wants to create a social media application called ***"FriendMe"***. This app will promote socializing between employees across offices. The application is almost complete but they need a feature that finds mutual friends between users. This feature can make users more comfortable with the app. Given that they have distributed servers across the globe, the **CTO** wants to use the **MapReduce framework** to implement this feature, distributing the computation overhead. The **CTO** wants ***you*** to simulate this feature in **JavaScript**.
 
 
 ## Task
@@ -55,7 +55,7 @@ Here, each alphabet represents a user where, for the following:
 
 
 #### 2. Map
-Once we have an interface, **map** the object into an array of objects. **Map** each _property_ of the object as follows.
+Once we have an interface, **map** the object into an array of objects. **Map** each *property* of the object as follows.
 
 ```javascript
 { A : [B, C, D] }
@@ -67,7 +67,7 @@ Once we have an interface, **map** the object into an array of objects. **Map** 
 ]
 ```
 
-Here, create a pair with each friend of `A` and assign each of them to the friend list of `A`. **Map** all of the _properties_ to get a final _array_ as below.
+Here, create a pair with each friend of `A` and assign each of them to the friend list of `A`. **Map** all of the *properties* to get a final *array* as below.
 
 ```javascript
 var friends = [
@@ -86,7 +86,7 @@ While pairing, follow the **lexicographical ordering** where the smaller alphabe
 
 
 #### 3. Group
-In this step, **group** all elements of the array into a single object. This joins the pairs together. Joining two pairs together means that we have the array of friends for both users of the pair. Without overwriting the array of the two users, create a _new_ array and add the two arrays of friends to it. The resultant array will be assigned to the pair.
+In this step, **group** all elements of the array into a single object. This joins the pairs together. Joining two pairs together means that we have the array of friends for both users of the pair. Without overwriting the array of the two users, create a *new* array and add the two arrays of friends to it. The resultant array will be assigned to the pair.
 
 ```javascript
 [
@@ -114,7 +114,7 @@ The above output enables us to move onto the **reduce** phase.
 
 
 #### 4. Reduce
-In this step, take each _element_ of the object and flatten the two-dimensional array into a single-dimensional array, with the final array having only common values.
+In this step, take each *element* of the object and flatten the two-dimensional array into a single-dimensional array, with the final array having only common values.
 
 ```javascript
 {
