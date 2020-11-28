@@ -11,10 +11,10 @@ Find mutual friends using MapReduce by simulating through JavaScript.
 - [Background](#background)
 - [Task](#task)
   - [Sub-tasks](#sub-tasks)
-      1. [Setting up](#1-setting-up)
-      2. [Map](#2-map)
-      3. [Group](#3-group)
-      4. [Reduce](#4-reduce)
+    1. [Setting up](#1-setting-up)
+    2. [Map](#2-map)
+    3. [Group](#3-group)
+    4. [Reduce](#4-reduce)
 
 
 ## Background
@@ -22,10 +22,10 @@ A company wants to create a social media application called ***"FriendMe"***. Th
 
 
 ## Task
-Your task in this project is to use your **JavaScript** knowledge to help implement the simulation of the **MapReduce framework**. Then, the **CTO** will know if it is possible to create a **MapReduce** implementation for the company’s servers.  
-  
+Your task in this project is to use your **JavaScript** knowledge to help implement the simulation of the **MapReduce framework**. Then, the **CTO** will know if it is possible to create a **MapReduce** implementation for the company’s servers.
+
 ![How people are connected with one another](./assets/task.jpg "How people are connected with one another")
-  
+
 The above illustration shows how users are connected to one another. Take a look at the steps required to find mutual friends while simulating the **MapReduce framework**.
 
 
